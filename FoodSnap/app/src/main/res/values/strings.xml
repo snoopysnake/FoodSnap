@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Food Snap</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_about">About</string>
+    <string name="food_snap">Food Snap</string>
+    <string name="cal">Total Calories</string>
+    <string name="add">Add</string>
+    <string name="clear">Clear</string>
+    <string name="cancel">Cancel</string>
+    <string name="take_pic">By Image</string>
+    <string name="prev_food">Most Recent Food</string>
+    <string name="manual_input">By Name</string>
+    <string name="search">Go</string>
+    <string name="title_activity_image_search">Image Search</string>
+    <string name="title_activity_text_search">Text Search</string>
+    <string name="title_activity_add_options">Add a Food</string>
+    <string name="action_settings">Settings</string>
+</resources>

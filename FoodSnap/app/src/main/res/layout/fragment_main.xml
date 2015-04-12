@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity$PlaceholderFragment"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_vertical">
+
+    <TextView android:text="@string/food_snap" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:enabled="false"
+        android:textSize="40dp"
+        android:textColor="#000000"
+        android:textAlignment="center" />
+
+    <TextView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="@string/cal"
+        android:id="@+id/textView"
+        android:textIsSelectable="false"
+        android:enabled="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:enabled="true"
+        android:focusableInTouchMode="false"
+        android:focusable="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="@string/prev_food"
+        android:id="@+id/textView3" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:ems="10"
+        android:id="@+id/editText2"
+        android:enabled="true"
+        android:focusableInTouchMode="false"
+        android:focusable="false" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add"
+        android:id="@+id/button_add"
+        android:onClick="addFoodOptions"
+        android:enabled="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/clear"
+        android:id="@+id/button_clear"
+        android:onClick="clearSavedData"
+        android:enabled="true" />
+
+</LinearLayout>
